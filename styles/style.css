@@ -13,11 +13,15 @@ main {
 .container {
     width: 870px;
     background-color: white;
-    padding: 30px;
+    padding: 30px 30px 0px 30px
+}
+hr {
+    border: 1px solid #D1D1D1;
 }
 /* top player section */
 .player-title{
     color: #562EFF;
+    margin-top: 3px;
 }
 .players{
     display: grid;
@@ -34,4 +38,31 @@ main {
 .player img{
     width: 56px;
     height: 56px;
+}
+/* top blog section */
+.blog-title {
+    color: #562EFF;
+    padding-top: 10px;
+}
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    padding-bottom: 30px;
+}
+.blog {
+    display: flex;
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+}
+.blog-detail {
+    padding: 0px 16px;
+}
+.blog p {
+    font-weight: bold;
+}
+.blog strong {
+    color: #562EFF;
 }
